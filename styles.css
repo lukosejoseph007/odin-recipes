@@ -1,0 +1,82 @@
+* {
+  background-color: #002b36;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+p,
+ul,
+li {
+  color: #fdf6e3;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #859900;
+}
+
+a:hover {
+  color: #2aa198;
+}
+
+img {
+  height: 50vh;
+  width: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #b58900;
+}
+
+.main {
+  padding-left: 2.75em;
+  padding-right: 2.75em;
+  padding-bottom: 6em;
+}
+
+.page-title {
+  color: #859900;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.header .menu-list-ul {
+  overflow: hidden;
+  background-color: #2aa198;
+  width: 100%;
+  margin: 0;
+}
+
+.menu-list-li {
+  float: left;
+}
+
+.menu-list-li a {
+  padding: 0rem 2rem 0rem 2rem;
+  align-items: center;
+  display: flex;
+  line-height: 3rem;
+  background-color: #2aa198;
+  color: #002b36;
+}
+
+.menu-list-li a:hover {
+  background-color: #011d24;
+  color: #2aa198;
+}
+
+.ingredients-list li {
+  list-style-type: disc;
+}
+
+.instructions-list li {
+  list-style-type: decimal;
+}
