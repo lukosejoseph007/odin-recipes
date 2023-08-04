@@ -1,6 +1,7 @@
 * {
   background-color: #002b36;
   font-family: "Poppins", sans-serif;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -34,6 +35,28 @@ h2 {
   color: #b58900;
 }
 
+h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2aa198;
+}
+
+.button {
+  color: #002b36;
+  background-color: #b58900;
+  border: 1px solid #b58900;
+  padding: 20px;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+}
+
+.button:hover {
+  color: #fdf6e3;
+  background-color: #859900;
+  border: 1px solid #859900;
+}
+
 .main {
   padding-left: 2.75em;
   padding-right: 2.75em;
@@ -48,10 +71,14 @@ h2 {
   font-weight: 200;
 }
 
+.header {
+  background-color: #2aa198;
+}
+
 .header .menu-list-ul {
   overflow: hidden;
   background-color: #2aa198;
-  width: 100%;
+  width: 90%;
   margin: 0;
 }
 
@@ -79,4 +106,87 @@ h2 {
 
 .instructions-list li {
   list-style-type: decimal;
+}
+
+.recipe-cards {
+  margin: 0 auto;
+  display: flex;
+}
+
+.dish-card-row {
+  width: 100%;
+}
+
+.dish-card {
+  display: flex;
+  min-width: 50%;
+  align-items: center;
+  border: 2px solid #b58900;
+  padding: 10px;
+  margin: 10px 10px 10px 0;
+}
+
+.dish-card:hover {
+  border: 2px solid #859900;
+  box-shadow: 1px 2px 5px 0px #859900;
+}
+
+.dish-card img {
+  width: 50%;
+  max-height: 325px;
+  object-fit: cover;
+  display: inline-block;
+  box-shadow: 1px 2px 5px 0px #859900;
+  margin-right: 10px;
+}
+
+.dish-content {
+  width: 50%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.time-container {
+  display: block;
+}
+
+.prep-time {
+  display: inline-block;
+  align-items: right;
+}
+
+.element-two {
+  margin-left: 20px;
+}
+
+.prep-time h3 {
+  margin-bottom: 4px;
+}
+
+.dish-content h2 {
+  margin-bottom: 5px;
+  text-decoration: underline #859900;
+}
+
+.dish-content p {
+  margin-top: 5px;
+}
+
+.dish-time {
+  display: inline-block;
+}
+
+.prep-time p {
+  margin-top: 4px;
+}
+
+.time-container,
+.dish-time,
+.dish-card,
+.dish-content,
+.dish-content h2,
+.dish-content h3,
+.dish-content p,
+.dish-content .prep-time {
+  background-color: #011d24;
 }
