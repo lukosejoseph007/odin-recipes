@@ -80,11 +80,6 @@ h3 {
   font-weight: 200;
 }
 
-.header {
-  background-color: #2aa198;
-  display: flex;
-}
-
 .chicken-curry-nav {
   margin-left: auto;
 }
@@ -95,6 +90,13 @@ h3 {
   width: 100%;
   margin: 0;
   padding-right: 40px;
+  box-shadow: 0 4px 2px -2px #b58900;
+  border-radius: 0 0 10px 10px;
+}
+
+.menu-list-ul .menu-list-li.active a {
+  color: #b58900;
+  background-color: #011d24;
 }
 
 .menu-list-li a {
@@ -135,6 +137,8 @@ h3 {
   border: 2px solid #b58900;
   padding: 10px;
   margin: 10px 10px 10px 0;
+  border-radius: 10px 50px;
+  background-color: #011d24;
 }
 
 .dish-card:hover {
@@ -193,11 +197,10 @@ h3 {
 
 .time-container,
 .dish-time,
-.dish-card,
 .dish-content,
 .dish-content h2,
 .dish-content h3,
 .dish-content p,
 .dish-content .prep-time {
-  background-color: #011d24;
+  background-color: transparent;
 }
