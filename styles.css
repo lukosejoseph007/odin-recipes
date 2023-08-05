@@ -82,21 +82,23 @@ h3 {
 
 .header {
   background-color: #2aa198;
+  display: flex;
+}
+
+.chicken-curry-nav {
+  margin-left: auto;
 }
 
 .header .menu-list-ul {
-  overflow: hidden;
+  display: flex;
   background-color: #2aa198;
-  width: 90%;
+  width: 100%;
   margin: 0;
-}
-
-.menu-list-li {
-  float: left;
+  padding-right: 40px;
 }
 
 .menu-list-li a {
-  padding: 0rem 2rem 0rem 2rem;
+  padding: 0rem 1rem;
   align-items: center;
   display: flex;
   line-height: 3rem;
