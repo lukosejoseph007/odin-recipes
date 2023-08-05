@@ -74,7 +74,7 @@ h3 {
 
 .page-title {
   color: #859900;
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-bottom: 0;
   font-size: 3rem;
   font-weight: 200;
@@ -92,6 +92,8 @@ h3 {
   padding-right: 40px;
   box-shadow: 0 4px 2px -2px #b58900;
   border-radius: 0 0 10px 10px;
+  position: fixed;
+  top: 0;
 }
 
 .menu-list-ul .menu-list-li.active a {
